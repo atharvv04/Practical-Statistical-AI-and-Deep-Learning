@@ -1,0 +1,246 @@
+model_type,history_length,config,parameters,val_mae,val_mse,trained_model
+MLP,10,"[32, 16]",897,0.03934848348520778,0.024767173181994933,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=10, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=16, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=16, out_features=1, bias=True)
+  )
+)"
+GRU,10,"h=8,l=1",273,0.04006264023542752,0.02472619441349623,"GRUPredictor(
+  (gru): GRU(1, 8, batch_first=True)
+  (fc): Linear(in_features=8, out_features=1, bias=True)
+)"
+MLP,10,[32],385,0.04015051824528798,0.024917217553819954,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=10, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+LinearAR,10,None,11,0.040264382657484665,0.025106338548485613,"LinearAR(
+  (linear): Linear(in_features=10, out_features=1, bias=True)
+)"
+MLP,10,"[64, 32]",2817,0.040452314712086296,0.02494410065732407,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=10, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=64, out_features=32, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+GRU,5,"h=4,l=2",209,0.04379877322143509,0.025776371105388975,"GRUPredictor(
+  (gru): GRU(1, 4, num_layers=2, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+GRU,5,"h=8,l=1",273,0.044369488359141056,0.025771469980326075,"GRUPredictor(
+  (gru): GRU(1, 8, batch_first=True)
+  (fc): Linear(in_features=8, out_features=1, bias=True)
+)"
+MLP,5,"[64, 32]",2497,0.04453199380187686,0.025828623183356443,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=5, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=64, out_features=32, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+GRU,5,"h=2,l=1",33,0.045052766375022084,0.025778371387791675,"GRUPredictor(
+  (gru): GRU(1, 2, batch_first=True)
+  (fc): Linear(in_features=2, out_features=1, bias=True)
+)"
+MLP,5,"[32, 16]",737,0.045386896666939805,0.025714298510814502,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=5, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=16, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=16, out_features=1, bias=True)
+  )
+)"
+MLP,5,[32],225,0.045542481326893085,0.025752140082625503,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=5, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+GRU,5,"h=4,l=1",89,0.04563840644084968,0.02590764413727198,"GRUPredictor(
+  (gru): GRU(1, 4, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+GRU,10,"h=4,l=1",89,0.04647544577664651,0.025771273491677994,"GRUPredictor(
+  (gru): GRU(1, 4, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+GRU,10,"h=2,l=1",33,0.04665519454926123,0.02597490046373633,"GRUPredictor(
+  (gru): GRU(1, 2, batch_first=True)
+  (fc): Linear(in_features=2, out_features=1, bias=True)
+)"
+GRU,10,"h=4,l=2",209,0.047488008871073205,0.02518606221138211,"GRUPredictor(
+  (gru): GRU(1, 4, num_layers=2, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+GRU,3,"h=8,l=1",273,0.04773209856815527,0.026174755868887574,"GRUPredictor(
+  (gru): GRU(1, 8, batch_first=True)
+  (fc): Linear(in_features=8, out_features=1, bias=True)
+)"
+LinearAR,5,None,6,0.04777530971285757,0.026256112657032826,"LinearAR(
+  (linear): Linear(in_features=5, out_features=1, bias=True)
+)"
+GRU,3,"h=2,l=1",33,0.0478365469453579,0.026245901789704963,"GRUPredictor(
+  (gru): GRU(1, 2, batch_first=True)
+  (fc): Linear(in_features=2, out_features=1, bias=True)
+)"
+GRU,3,"h=4,l=1",89,0.04789455718858796,0.026294824080314295,"GRUPredictor(
+  (gru): GRU(1, 4, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+MLP,2,"[64, 32]",2305,0.04789762839989012,0.026194290581965478,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=2, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=64, out_features=32, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+GRU,3,"h=4,l=2",209,0.047909532368731224,0.02630440949150511,"GRUPredictor(
+  (gru): GRU(1, 4, num_layers=2, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+MLP,3,[32],161,0.04797668456073521,0.026266157171636335,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+MLP,3,"[64, 32]",2369,0.048341431921060295,0.026307272104536223,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=64, out_features=32, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+GRU,2,"h=8,l=1",273,0.04854916597612627,0.026210864995118686,"GRUPredictor(
+  (gru): GRU(1, 8, batch_first=True)
+  (fc): Linear(in_features=8, out_features=1, bias=True)
+)"
+GRU,2,"h=2,l=1",33,0.04875134228297147,0.02623835073865406,"GRUPredictor(
+  (gru): GRU(1, 2, batch_first=True)
+  (fc): Linear(in_features=2, out_features=1, bias=True)
+)"
+GRU,2,"h=4,l=2",209,0.04883825634076402,0.026241150724537005,"GRUPredictor(
+  (gru): GRU(1, 4, num_layers=2, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+GRU,2,"h=4,l=1",89,0.0490219357263231,0.026318475613871885,"GRUPredictor(
+  (gru): GRU(1, 4, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+LinearAR,3,None,4,0.04906858213771202,0.026431216916574414,"LinearAR(
+  (linear): Linear(in_features=3, out_features=1, bias=True)
+)"
+LinearAR,2,None,3,0.049085193614773336,0.026452903168032626,"LinearAR(
+  (linear): Linear(in_features=2, out_features=1, bias=True)
+)"
+GRU,1,"h=8,l=1",273,0.04973030630863129,0.02642211800184526,"GRUPredictor(
+  (gru): GRU(1, 8, batch_first=True)
+  (fc): Linear(in_features=8, out_features=1, bias=True)
+)"
+MLP,2,"[32, 16]",641,0.05002773619393371,0.026246870691922018,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=2, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=16, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=16, out_features=1, bias=True)
+  )
+)"
+MLP,2,[32],129,0.05003910021318255,0.026249944592513355,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=2, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+MLP,1,"[64, 32]",2241,0.050099663188328994,0.026438419196450094,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=1, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=64, out_features=32, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
+GRU,1,"h=2,l=1",33,0.05025858673428768,0.026418197351469924,"GRUPredictor(
+  (gru): GRU(1, 2, batch_first=True)
+  (fc): Linear(in_features=2, out_features=1, bias=True)
+)"
+GRU,1,"h=4,l=1",89,0.05038838152486782,0.026419407949849476,"GRUPredictor(
+  (gru): GRU(1, 4, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+LinearAR,1,None,2,0.05050603641320229,0.02657084828574842,"LinearAR(
+  (linear): Linear(in_features=1, out_features=1, bias=True)
+)"
+GRU,1,"h=4,l=2",209,0.050555572642401694,0.026447041690690218,"GRUPredictor(
+  (gru): GRU(1, 4, num_layers=2, batch_first=True)
+  (fc): Linear(in_features=4, out_features=1, bias=True)
+)"
+MLP,1,"[32, 16]",609,0.050635826686754336,0.026453887424403237,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=1, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=16, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=16, out_features=1, bias=True)
+  )
+)"
+MLP,3,"[32, 16]",673,0.0506801971090737,0.02630912074400219,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=16, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.1, inplace=False)
+    (6): Linear(in_features=16, out_features=1, bias=True)
+  )
+)"
+MLP,1,[32],97,0.05135638339244027,0.02643135071661462,"MLPPredictor(
+  (network): Sequential(
+    (0): Linear(in_features=1, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=32, out_features=1, bias=True)
+  )
+)"
