@@ -1,0 +1,66 @@
+{
+  "facebook/react": {
+    "language": "JavaScript",
+    "topics": [
+      "declarative",
+      "frontend",
+      "javascript",
+      "library",
+      "react",
+      "ui"
+    ],
+    "created_at": "2013-05-24T16:15:54Z",
+    "description": "The library for web and native user interfaces.",
+    "stargazers_count": 240279
+  },
+  "tensorflow/tensorflow": {
+    "language": "C++",
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "python",
+      "tensorflow"
+    ],
+    "created_at": "2015-11-07T01:19:20Z",
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "stargazers_count": 192298
+  },
+  "pallets/flask": {
+    "language": "Python",
+    "topics": [
+      "flask",
+      "jinja",
+      "pallets",
+      "python",
+      "web-framework",
+      "werkzeug",
+      "wsgi"
+    ],
+    "created_at": "2010-04-06T11:11:59Z",
+    "description": "The Python micro framework for building web applications.",
+    "stargazers_count": 70701
+  },
+  "torvalds/linux": {
+    "language": "C",
+    "topics": [],
+    "created_at": "2011-09-04T22:48:12Z",
+    "description": "Linux kernel source tree",
+    "stargazers_count": 206224
+  },
+  "golang/go": {
+    "language": "Go",
+    "topics": [
+      "go",
+      "golang",
+      "language",
+      "programming-language"
+    ],
+    "created_at": "2014-08-19T04:33:40Z",
+    "description": "The Go programming language",
+    "stargazers_count": 130647
+  }
+}
